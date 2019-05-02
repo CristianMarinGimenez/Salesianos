@@ -32,12 +32,11 @@ int main(){
             std::cout<<"Introduce una palabra";
             std::cin>>palabra;
             longitud=strlen(palabra);
-            for(col=posy;col<posy+longitud;col++){
-                matriz[posx][col]=palabra[col-posy];
+            
             
             std::cout<<"La palabra mide: "<<longitud;
             ;std::cout<<"\nToca cualquier tecla para salir";
             ;std::cin>>salir;
     return 0;
     }
-}  
+

@@ -12,9 +12,7 @@ main(){
               }
               else{
                    relleno=1;
-                   }
-              else{
-                   if(col%2==0)          
+           if(col%2==0)          
               relleno=0;
                         else{
                    relleno=1;
@@ -32,6 +30,4 @@ main(){
                      return 0;
 }
 }
-}
-}
-       
+}      
